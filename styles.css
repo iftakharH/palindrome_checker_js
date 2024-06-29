@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: #022B3A;
+    color: white;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.heading{
+    align-items: center;
+    text-align: center;
+    height: 100px;
+}
+
+#text-input {
+  border: 1px solid white;
+  border-radius: 3px;
+  padding: 10px;
+  flex-grow: 1; 
+}
+
+#text-input:focus {
+  outline: none; 
+  border-color: #999;
+}
+
+#check-btn {
+  background-color: #1F7A8C;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#check-btn:hover {
+  background-color: #BFDBF7;
+
+#result {
+  font-style: bold;
+  color: white;
+}
+
+#result.success {
+  color: #FFFFFF;
+}
+
+#result.failure {
+  color: #E1E5F2; 
+}
